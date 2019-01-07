@@ -4,6 +4,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
+ * 测试的Controller
+ *
  * @author xingzhi.lv
  * @description
  * @since 2019/1/7 15:26
