@@ -16,16 +16,20 @@
     <meta http-equiv="refresh" content="0;ie.html">
     <![endif]-->
     <!--设置外部引用值, shortcut icon为IE设置地址前小图标 icon为非IE识别, 兼容起见使用shortcut icon-->
-    <link rel="shortcut icon" href="favicon.ico" >
+    <link href="favicon.ico"  rel="shortcut icon">
 
     <!--引入样式文件-->
-    <link href="../plugin/bootstrap/css/bootstrap.min.css">
+    <link href="../plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <!--总框架设定-->
 <!--左侧导航-->
 <!--右侧上部分-->
-<!--右侧内容部分-->
+<!--右侧内容部分, 为单独的页面文件,由iframe加载进来-->
 <!--右侧下部分-->
+<!--其他(右侧边栏,悬浮模块)-->
+
+<!--引入js, 放在body末尾的原因: 避免js中没有包再onload中的代码使用未加载元素报错问题-->
+
 </body>
 </html>
